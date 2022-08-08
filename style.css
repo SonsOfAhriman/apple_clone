@@ -108,6 +108,7 @@ i:hover {
 }
 
 .grid-item {
+  background-color: #fbfbfd;
   text-align: center;
   position: relative;
   top: 0;
@@ -149,22 +150,42 @@ i:hover {
   letter-spacing: -0.03em;
 }
 
+.luck-stream-button:hover {
+  background-color: rgb(241, 238, 238);
+}
+
 .text-wrapper {
   position: absolute;
   top: 6%;
-  left: 38%;
+  left: 36%;
 }
 
-.text-wrapper h2 {
+.text-wrapper-phone {
+  position: absolute;
+  top: 6%;
+  left: 41%;
+}
+
+.text-wrapper-laptop {
+  padding-bottom: 40px;
+}
+
+.text-wrapper h2,
+.text-wrapper-phone h2,
+.text-wrapper-laptop h2 {
   font-size: 56px;
   line-height: 1.07;
   font-weight: 600;
+  letter-spacing: -0.06em;
 }
 
-.text-wrapper h3 {
+.text-wrapper h3,
+.text-wrapper-phone h3,
+.text-wrapper-laptop h3 {
   font-size: 28px;
   line-height: 1.1;
   font-weight: 400;
+  letter-spacing: -0.04em;
 }
 
 .ipad-links {
@@ -178,6 +199,14 @@ i:hover {
 .ipad-links a,
 .ipad-links i {
   color: #06c;
+}
+
+.ipad-links a:hover {
+  text-decoration: underline;
+}
+
+.laptop {
+  padding: 60px 0 60px 0;
 }
 
 footer {
@@ -196,7 +225,6 @@ footer {
 .first-footer nav {
   display: flex;
   flex-wrap: nowrap;
-  box-sizing: content-box;
   padding-top: 20px;
   font-size: 12px;
   font-weight: 400;
@@ -235,4 +263,45 @@ footer {
 
 .footer-h3 {
   margin-bottom: 8px;
+}
+
+.bottom-section {
+  padding: 36px 0 24px 0;
+}
+
+.bottom-section-top {
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #77777a;
+  color: #77777a;
+}
+
+.bottom-section-top a {
+  color: #5f94db;
+}
+
+.bottom-section-top a:hover {
+  text-decoration: underline;
+}
+
+.bottom-section-bottom {
+  color: #77777a;
+}
+
+.bottom-section-bottom-links {
+  margin-left: 34px;
+}
+
+.bottom-section-bottom-links a {
+  border-right: 1px solid #77777a;
+  margin-right: 7px;
+  padding-right: 10px;
+}
+
+.bottom-section-bottom-links a:hover {
+  text-decoration: underline;
+}
+
+.bottom-right-link:hover {
+  text-decoration: underline;
 }
